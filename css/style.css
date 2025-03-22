@@ -484,6 +484,7 @@ nav ul li a.active {
     justify-items: center;
     margin: 0 auto;
     max-width: 1200px;
+    align-items: center;
 }
 
 .member-card {
