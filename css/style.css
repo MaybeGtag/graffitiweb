@@ -1459,6 +1459,18 @@ footer {
     padding-top: var(--spacing-md); /* Reduce top padding */
 }
 
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq-answer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 /* Discord Members Section */
 .discord-members {
     background: var(--gradient-hero); /* Using the same gradient as hero section */
