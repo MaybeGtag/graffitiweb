@@ -478,10 +478,10 @@ nav ul li a.active {
 }
 
 .members-carousel {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(5, 1fr);
     gap: var(--spacing-md);
-    justify-items: center;
+    justify-content: center;
     margin: 0 auto;
     max-width: 1200px;
     align-items: center;
