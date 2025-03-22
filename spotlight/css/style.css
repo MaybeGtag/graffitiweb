@@ -923,6 +923,9 @@ footer {
     /* Make sure content doesn't stick under fixed header */
     .page-banner {
         padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     /* Ensure video embeds are visible */
