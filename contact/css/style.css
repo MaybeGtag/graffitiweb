@@ -2047,6 +2047,12 @@ footer {
     color: white;
 }
 
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .dark-section .faq-answer p {
     color: rgba(255, 255, 255, 0.8);
 }
