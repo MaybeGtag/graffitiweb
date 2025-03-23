@@ -1465,6 +1465,18 @@ footer {
     gap: 5px;
 }
 
+.faq-answer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.faq-question {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .faq-question {
     display: flex;
     flex-direction: column;
