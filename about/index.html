@@ -1,136 +1,50 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Graffiti Program</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&amp;family=Poppins:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
-    <link rel="icon" href="images/graffiti.webp" type="image/webp">
-    <link rel="shortcut icon" href="images/graffiti.webp" type="image/webp">
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Official Graffiti Program</title>
+  
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #e9e9e9;
+    }
+
+    .centered {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+  </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <a href="https://maybegtag.github.io/graffitiweb/"><img src="images/graffiti.webp" alt="Graffiti Program Logo" id="logo-img"></a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="https://maybegtag.github.io/graffitiweb/" class="active">Home</a></li>
-                    <li><a href="https://maybegtag.github.io/graffitiweb/about/">About</a></li>
-                    <li><a href="https://maybegtag.github.io/graffitiweb/members/">Members</a></li>
-                    <li><a href="https://maybegtag.github.io/graffitiweb/spotlight/">Spotlight</a></li>
-                    <li><a href="https://maybegtag.github.io/graffitiweb/contact/">Contact</a></li>
-                </ul>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <section class="page-banner reveal-section reveal">
-        <div class="container">
-            <h1>About <span>Us</span></h1>
-            <p>Discover the story behind the Graffiti Program</p>
-        </div>
-    </section>
-
-    <section class="mission-section reveal-section reveal">
-        <div class="container">
-            <div class="mission-content">
-                <div class="mission-text">
-                    <h2>Our <span>Mission</span></h2>
-                    <p>The Graffiti Program is dedicated to discovering and nurturing talented content creators within the Gorilla Tag community. We believe that everyone deserves a chance to shine, regardless of their current following.</p>
-                    <p>Our mission is to provide resources, support, and opportunities to help creators grow their channels and improve their content quality while fostering a positive and collaborative community.</p>
-                </div>
-                <div class="mission-values">
-                    <div class="value-card fade-in">
-                        <i class="fas fa-heart"></i>
-                        <h3>Community First</h3>
-                        <p>Building a supportive and inclusive environment for creators</p>
-                    </div>
-                    <div class="value-card fade-in">
-                        <i class="fas fa-star"></i>
-                        <h3>Quality Content</h3>
-                        <p>Promoting and encouraging high-quality, original content</p>
-                    </div>
-                    <div class="value-card fade-in">
-                        <i class="fas fa-hands-helping"></i>
-                        <h3>Creator Support</h3>
-                        <p>Providing resources and mentorship for growth</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="story-section reveal-section">
-        <div class="container">
-            <div class="story-content">
-                <div class="story-text">
-                    <h2>Our <span>Story</span></h2>
-                    <p>The Graffiti Program was founded with a simple yet powerful idea: to create a platform that recognizes and supports talented content creators in the Gorilla Tag community who might otherwise go unnoticed.</p>
-                    <p>Starting as a small initiative, we've grown into a thriving community of creators who support and inspire each other. Our program has helped numerous content creators improve their skills, grow their audience, and achieve their creative goals.</p>
-                    <div class="story-stats">
-                        <div class="stat">
-                            <span class="stat-number">5000+</span>
-                            <span class="stat-label">Community Members</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">10+</span>
-                            <span class="stat-label">Active Creators</span>
-                        </div>
-                        <div class="stat">
-                            <span class="stat-number">24/7</span>
-                            <span class="stat-label">Support Available</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-column">
-                    <h3>Graffiti Program</h3>
-                    <p>Making Gorilla Tag a Better Place</p>
-                    <div class="footer-logo">
-                        <img src="images/graffiti.webp" alt="Graffiti Program Logo">
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Contact Us</h3>
-                    <p>Email: contact@graffitiprogram.com</p>
-                    <p>Discord: discord.gg/graffitibadgeprogram</p>
-                    <p>YouTube: @TheGraffitiProgram</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© 2025 Graffiti Program. All rights reserved.</p>
-                <div class="footer-social">
-                    <a href="https://www.youtube.com/@TheGraffitiProgram" target="_blank"><i class="fab fa-youtube"></i></a>
-                    <a href="https://discord.gg/graffitibadgeprogram" target="_blank"><i class="fab fa-discord"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/script.js"></script>
-
-</body></html>
+  <div class="centered">
+    <h1>This program has been canceled.</h1>
+    <p>Thanks for making graffiti awesome! -Maybe_gtag</p>
+  </div>
+</body>
+</html>
